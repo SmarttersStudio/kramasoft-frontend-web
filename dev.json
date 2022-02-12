@@ -1,0 +1,11 @@
+
+{
+  "apps" : [
+    {
+      "name"      : "web",
+      "script"    : "yarn build &&  serve -s build",
+      "interpreter": "none",
+      "args": "serve -p 8443 -T"
+    }
+  ]
+}
